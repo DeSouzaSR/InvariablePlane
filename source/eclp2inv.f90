@@ -12,7 +12,7 @@ program eclp2inv
     end do
 
     write(*,*)
-    write(*,*) "Valores anteriores à conversão"
+    write(*,*) "Before"
     write(*,*)
     do i = 1, N
         write(*,*) x(i), y(i), z(i), vx(i), vy(i), vz(i)
@@ -23,7 +23,7 @@ program eclp2inv
 
     ! Write out new coordinates and velocities.
     write(*,*)
-    write(*,*) "Valores posteriores à conversão"
+    write(*,*) "After"
     write(*,*)
     do i = 1, N
         write(*,*) x(i), y(i), z(i), vx(i), vy(i), vz(i)
