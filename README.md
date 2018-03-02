@@ -1,7 +1,6 @@
 # Invariable Plane
 
-Sandro Ricardo De Souza
-<sandro.fisica@gmail.com>
+Sandro Ricardo De Souza (<sandro.fisica@gmail.com>)
 
 The objective of this project is to test a transformation of ecliptic
 coordinates to the invariant plane. Thus, let us evaluate the evolution
@@ -16,6 +15,9 @@ Here,
 - inc: slope [deg]
 - capom: longitude of the ascending node [deg]
 - omega: periastro argument. [deg]
+
+To perform these integrations, we will use the
+[Swift integration package](https://www.boulder.swri.edu/~hal/swift.html).
 
 The coordinates are in astronomical units [au] and the velocities in
 astronomical units per year [au/a]. These values were taken from
